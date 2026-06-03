@@ -577,14 +577,10 @@ export default function Page() {
               <div className="flex items-end justify-center gap-3 mb-2">
                 <span className="text-slate-400 text-2xl">$</span>
                 <span className="font-display text-7xl sm:text-8xl font-black text-gradient leading-none">
-                  8.500
+                  10.000
                 </span>
               </div>
-              <p className="text-slate-400 mb-1">primer mes</p>
-              <p className="text-sm text-slate-500 mb-8">
-                Después <span className="text-slate-300 font-semibold">$10.000 / mes</span> —
-                cancelás cuando quieras
-              </p>
+              <p className="text-slate-400 mb-8">primer mes</p>
 
               <ul className="text-left max-w-md mx-auto space-y-3 mb-10">
                 {[
@@ -829,7 +825,7 @@ export default function Page() {
             aria-label="Comprar por WhatsApp"
           >
             <WhatsAppIcon />
-            Comprar por WhatsApp · $8.500
+            Comprar por WhatsApp · $10.000
           </motion.a>
         </div>
       </section>
